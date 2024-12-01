@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ericr\\source\\repos\\Advent2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C60F18C7-74C1-4A51-B991-9CCE4CC5F258}|Advent2024\\Advent2024.csproj|c:\\users\\ericr\\source\\repos\\advent2024\\advent2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C60F18C7-74C1-4A51-B991-9CCE4CC5F258}|Advent2024\\Advent2024.csproj|solutionrelative:advent2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ericr\\source\\repos\\Advent2024\\Advent2024\\Program.cs",
+              "RelativeDocumentMoniker": "Advent2024\\Program.cs",
+              "ToolTip": "C:\\Users\\ericr\\source\\repos\\Advent2024\\Advent2024\\Program.cs",
+              "RelativeToolTip": "Advent2024\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:11:04.463Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
