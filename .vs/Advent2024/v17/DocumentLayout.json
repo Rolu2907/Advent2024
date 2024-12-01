@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ericr\\source\\repos\\Advent2024\\",
+  "WorkspaceRootPath": "C:\\Users\\ericr\\Documents\\GitHub\\Advent2024\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C60F18C7-74C1-4A51-B991-9CCE4CC5F258}|Advent2024\\Advent2024.csproj|c:\\users\\ericr\\source\\repos\\advent2024\\advent2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C60F18C7-74C1-4A51-B991-9CCE4CC5F258}|Advent2024\\Advent2024.csproj|c:\\users\\ericr\\documents\\github\\advent2024\\advent2024\\scripts\\day1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C60F18C7-74C1-4A51-B991-9CCE4CC5F258}|Advent2024\\Advent2024.csproj|solutionrelative:advent2024\\scripts\\day1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60F18C7-74C1-4A51-B991-9CCE4CC5F258}|Advent2024\\Advent2024.csproj|c:\\users\\ericr\\documents\\github\\advent2024\\advent2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C60F18C7-74C1-4A51-B991-9CCE4CC5F258}|Advent2024\\Advent2024.csproj|solutionrelative:advent2024\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C60F18C7-74C1-4A51-B991-9CCE4CC5F258}|Advent2024\\Advent2024.csproj|c:\\users\\ericr\\documents\\github\\advent2024\\advent2024\\inputs\\day1_prueba.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C60F18C7-74C1-4A51-B991-9CCE4CC5F258}|Advent2024\\Advent2024.csproj|solutionrelative:advent2024\\inputs\\day1_prueba.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Day1.cs",
+              "DocumentMoniker": "C:\\Users\\ericr\\Documents\\GitHub\\Advent2024\\Advent2024\\scripts\\Day1.cs",
+              "RelativeDocumentMoniker": "Advent2024\\scripts\\Day1.cs",
+              "ToolTip": "C:\\Users\\ericr\\Documents\\GitHub\\Advent2024\\Advent2024\\scripts\\Day1.cs",
+              "RelativeToolTip": "Advent2024\\scripts\\Day1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T20:35:08.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "day1_prueba.txt",
+              "DocumentMoniker": "C:\\Users\\ericr\\Documents\\GitHub\\Advent2024\\Advent2024\\inputs\\day1_prueba.txt",
+              "RelativeDocumentMoniker": "Advent2024\\inputs\\day1_prueba.txt",
+              "ToolTip": "C:\\Users\\ericr\\Documents\\GitHub\\Advent2024\\Advent2024\\inputs\\day1_prueba.txt",
+              "RelativeToolTip": "Advent2024\\inputs\\day1_prueba.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-12-01T20:34:48.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ericr\\source\\repos\\Advent2024\\Advent2024\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ericr\\Documents\\GitHub\\Advent2024\\Advent2024\\Program.cs",
               "RelativeDocumentMoniker": "Advent2024\\Program.cs",
-              "ToolTip": "C:\\Users\\ericr\\source\\repos\\Advent2024\\Advent2024\\Program.cs",
+              "ToolTip": "C:\\Users\\ericr\\Documents\\GitHub\\Advent2024\\Advent2024\\Program.cs",
               "RelativeToolTip": "Advent2024\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAcwC4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-01T20:11:04.463Z",
               "EditorCaption": ""
