@@ -40,97 +40,52 @@
             else input = File.ReadAllLines(@$"{baseLoc}\inputs\day{day}.txt");
 
 
-            switch ($"{day}_{part}")
+            switch (day)
             {
-                case "1_1":
-                    Day1.P1(input);
+                case "1":
+                    Day1.Main(part, input);
                     break;
-                //case "1_2":
-                //    Day1.P2(input);
+                //case "2":
+                //    Day2.Main(part, input);
                 //    break;
-                //case "2_1":
-                //    Day2_1(input);
+                //case "3":
+                //    Day3.Main(part, input);
                 //    break;
-                //case "2_2":
-                //    Day2_2(input);
+                //case "4":
+                //    Day4.Main(part, input);
                 //    break;
-                //case "3_1":
-                //    Day3_1(input);
+                //case "5":
+                //    Day5.Main(part, input);
                 //    break;
-                //case "3_2":
-                //    Day3_2(input);
+                //case "6":
+                //    Day6.Main(part, input);
                 //    break;
-                //case "4_1":
-                //    Day4_1(input);
+                //case "7":
+                //    Day7.Main(part, input);
                 //    break;
-                //case "4_2":
-                //    Day4_2(input);
+                //case "8":
+                //    Day8.Main(part, input);
                 //    break;
-                //case "5_1":
-                //    Day5_1(input);
+                //case "9":
+                //    Day9.Main(part, input);
                 //    break;
-                //case "5_2":
-                //    Day5_2(input);
+                //case "10":
+                //    Day10.Main(part, input);
                 //    break;
-                //case "6_1":
-                //    Day6_1(input);
+                //case "11":
+                //    Day11.Main(part, input);
                 //    break;
-                //case "6_2":
-                //    Day6_2(input);
+                //case "12":
+                //    Day12.Main(part, input);
                 //    break;
-                //case "7_1":
-                //    Day7_1(input);
+                //case "13":
+                //    Day13.Main(part, input);
                 //    break;
-                //case "7_2":
-                //    Day7_2(input);
+                //case "14":
+                //    Day14.Main(part, input);
                 //    break;
-                //case "8_1":
-                //    Day8_1(input);
-                //    break;
-                //case "8_2":
-                //    Day8_2(input);
-                //    break;
-                //case "9_1":
-                //    Day9_1(input);
-                //    break;
-                //case "9_2":
-                //    Day9_2(input);
-                //    break;
-                //case "10_1":
-                //    Day10_1(input);
-                //    break;
-                //case "10_2":
-                //    Day10_2(input);
-                //    break;
-                //case "11_1":
-                //    Day11_1(input);
-                //    break;
-                //case "11_2":
-                //    Day11_2(input);
-                //    break;
-                //case "12_1":
-                //    Day12_1(input);
-                //    break;
-                //case "12_2":
-                //    Day12_2(input);
-                //    break;
-                //case "13_1":
-                //    Day13_1(input);
-                //    break;
-                //case "13_2":
-                //    Day13_2(input);
-                //    break;
-                //case "14_1":
-                //    Day14_1(input);
-                //    break;
-                //case "14_2":
-                //    Day14_2(input);
-                //    break;
-                //case "15_1":
-                //    Day15_1(input);
-                //    break;
-                //case "15_2":
-                //    Day15_2(input);
+                //case "15":
+                //    Day15.Main(part, input);
                 //    break;
             }
         }
