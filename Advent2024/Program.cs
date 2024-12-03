@@ -32,61 +32,58 @@
         {
             string[] input;
 
-            if (example)
-            {
-                if (part == "1") input = File.ReadAllLines(@$"{baseLoc}\inputs\day{day}_prueba.txt");
-                else input = File.ReadAllLines(@$"{baseLoc}\inputs\day{day}_prueba2.txt");
-            }
-            else input = File.ReadAllLines(@$"{baseLoc}\inputs\day{day}.txt");
-
+            input = File.ReadAllLines(@$"{baseLoc}\inputs\day{day}\"
+                +  (example?"example"+(part =="1"?"":"2"):"normal")
+                + ".txt");
+            
 
             switch (day)
             {
                 case "1":
                     Day1.Main(part, input);
                     break;
-                //case "2":
-                //    Day2.Main(part, input);
-                //    break;
-                //case "3":
-                //    Day3.Main(part, input);
-                //    break;
-                //case "4":
-                //    Day4.Main(part, input);
-                //    break;
-                //case "5":
-                //    Day5.Main(part, input);
-                //    break;
-                //case "6":
-                //    Day6.Main(part, input);
-                //    break;
-                //case "7":
-                //    Day7.Main(part, input);
-                //    break;
-                //case "8":
-                //    Day8.Main(part, input);
-                //    break;
-                //case "9":
-                //    Day9.Main(part, input);
-                //    break;
-                //case "10":
-                //    Day10.Main(part, input);
-                //    break;
-                //case "11":
-                //    Day11.Main(part, input);
-                //    break;
-                //case "12":
-                //    Day12.Main(part, input);
-                //    break;
-                //case "13":
-                //    Day13.Main(part, input);
-                //    break;
-                //case "14":
-                //    Day14.Main(part, input);
-                //    break;
-                //case "15":
-                //    Day15.Main(part, input);
-                //    break;
+                case "2":
+                    Day2.Main(part, input);
+                    break;
+                    //case "3":
+                    //    Day3.Main(part, input);
+                    //    break;
+                    //case "4":
+                    //    Day4.Main(part, input);
+                    //    break;
+                    //case "5":
+                    //    Day5.Main(part, input);
+                    //    break;
+                    //case "6":
+                    //    Day6.Main(part, input);
+                    //    break;
+                    //case "7":
+                    //    Day7.Main(part, input);
+                    //    break;
+                    //case "8":
+                    //    Day8.Main(part, input);
+                    //    break;
+                    //case "9":
+                    //    Day9.Main(part, input);
+                    //    break;
+                    //case "10":
+                    //    Day10.Main(part, input);
+                    //    break;
+                    //case "11":
+                    //    Day11.Main(part, input);
+                    //    break;
+                    //case "12":
+                    //    Day12.Main(part, input);
+                    //    break;
+                    //case "13":
+                    //    Day13.Main(part, input);
+                    //    break;
+                    //case "14":
+                    //    Day14.Main(part, input);
+                    //    break;
+                    //case "15":
+                    //    Day15.Main(part, input);
+                    //    break;
             }
         }
     }
