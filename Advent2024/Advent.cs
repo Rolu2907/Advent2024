@@ -1,6 +1,6 @@
 ﻿namespace Advent_Of_Code_2023
 {
-    internal class Adviento
+    internal class Advent
     {
         static readonly string baseLoc = @"..\..\..";
         static void Main()
@@ -45,9 +45,9 @@
                 case "2":
                     Day2.Main(part, input);
                     break;
-                    //case "3":
-                    //    Day3.Main(part, input);
-                    //    break;
+                case "3":
+                    Day3.Main(part, input);
+                    break;
                     //case "4":
                     //    Day4.Main(part, input);
                     //    break;
