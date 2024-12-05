@@ -13,7 +13,7 @@
             day = "5";//Console.ReadLine();
 
             Console.Write("\n Introduce la parte: ");
-            part =  "1";//Console.ReadLine();
+            part =  "2";//Console.ReadLine();
             Console.Clear();
 
             Console.Write("\n ¿Hacer la prueba? (Y/Any)");
