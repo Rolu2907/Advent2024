@@ -10,10 +10,10 @@
 
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.Write("-----Advent Of Code 2021-------------\n\n Introduce el día: ");
-            day = "5";//Console.ReadLine();
+            day = "6";//Console.ReadLine();
 
             Console.Write("\n Introduce la parte: ");
-            part =  "2";//Console.ReadLine();
+            part =  "1";//Console.ReadLine();
             Console.Clear();
 
             Console.Write("\n ¿Hacer la prueba? (Y/Any)");
@@ -53,9 +53,9 @@
                 case "5":
                     Day5.Main(part, input);
                     break;
-                    //case "6":
-                    //    Day6.Main(part, input);
-                    //    break;
+                case "6":
+                    Day6.Main(part, input);
+                    break;
                     //case "7":
                     //    Day7.Main(part, input);
                     //    break;
