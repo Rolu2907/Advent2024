@@ -1,6 +1,4 @@
-using System.Diagnostics;
-
-namespace Advent_Of_Code_2023
+namespace Advent2024
 {
     public class Day2
     {

@@ -1,4 +1,4 @@
-﻿namespace Advent_Of_Code_2023
+﻿namespace Advent2024
 {
     internal class Advent
     {
@@ -10,10 +10,10 @@
 
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.Write("-----Advent Of Code 2021-------------\n\n Introduce el día: ");
-            day = "6";//Console.ReadLine();
+            day = "7";//Console.ReadLine();
 
             Console.Write("\n Introduce la parte: ");
-            part =  "2";//Console.ReadLine();
+            part =  "1";//Console.ReadLine();
             Console.Clear();
 
             Console.Write("\n ¿Hacer la prueba? (Y/Any)");
@@ -56,9 +56,9 @@
                 case "6":
                     Day6.Main(part, input);
                     break;
-                    //case "7":
-                    //    Day7.Main(part, input);
-                    //    break;
+                case "7":
+                    Day7.Main(part, input);
+                    break;
                     //case "8":
                     //    Day8.Main(part, input);
                     //    break;

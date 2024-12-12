@@ -1,7 +1,4 @@
-using System.Diagnostics;
-using System.Globalization;
-
-namespace Advent_Of_Code_2023
+namespace Advent2024
 {
     public class Day5
     {
