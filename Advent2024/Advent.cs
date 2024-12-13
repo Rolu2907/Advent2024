@@ -2,7 +2,7 @@
 {
     internal class Advent
     {
-        static readonly string baseLoc = "";//Path.Join("..", "..", "..");
+        static readonly string baseLoc = Path.Join("..", "..", "..");
         static void Main()
         {
             string day, part;
@@ -10,15 +10,15 @@
 
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.Write("-----Advent Of Code 2021-------------\n\n Introduce el día: ");
-            day = "7";//Console.ReadLine();
+            day = Console.ReadLine();
 
             Console.Write("\n Introduce la parte: ");
-            part =  "2";//Console.ReadLine();
+            part =  Console.ReadLine();
             Console.Clear();
 
             Console.Write("\n ¿Hacer la prueba? (Y/Any)");
 
-            example = false;//new char[] { 'Y', 'y' }.Contains(Console.ReadKey().KeyChar);
+            example = new char[] { 'Y', 'y' }.Contains(Console.ReadKey().KeyChar);
             Console.Clear();
             Console.Write($"Día {day} - Parte {part} ---------------->\n\n");
 
@@ -26,7 +26,7 @@
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\n\n Pulsa cualquier tecla para salir...");
-            //Console.ReadKey(true);
+            Console.ReadKey(true);
         }
         static void Day(string day, string part, bool example)
         {
@@ -59,9 +59,9 @@
                 case "7":
                     Day7.Main(part, input);
                     break;
-                    //case "8":
-                    //    Day8.Main(part, input);
-                    //    break;
+                case "8":
+                    Day8.Main(part, input);
+                    break;
                     //case "9":
                     //    Day9.Main(part, input);
                     //    break;
