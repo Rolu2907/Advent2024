@@ -65,9 +65,9 @@
                 case "9":
                     Day9.Main(part, input);
                     break;
-                    //case "10":
-                    //    Day10.Main(part, input);
-                    //    break;
+                case "10":
+                    Day10.Main(part, input);
+                    break;
                     //case "11":
                     //    Day11.Main(part, input);
                     //    break;
